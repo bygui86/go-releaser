@@ -1,4 +1,0 @@
-6797b89a8a9d789e65e1b654cd40c5885cc5a446bebffd636565b9ea72ace625  go-releaser_0.3.0_Linux_x86_64.tar.gz
-6f373390e925b18507e82c84d0f613893f95e7d3a5cfd77ffaac1c5e4f28360c  go-releaser_0.3.0_Linux_i386.tar.gz
-2a569f6bc7b8d05f4f8568994e1e2f4e0d12310b24c21625cc84ed5fe8d44ec7  go-releaser_0.3.0_Darwin_i386.tar.gz
-2f1793aa19df694809178a725dd1f3eec53bee7bd84be8a0d983b8300a7e69f6  go-releaser_0.3.0_Darwin_x86_64.tar.gz
