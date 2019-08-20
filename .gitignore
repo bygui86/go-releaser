@@ -18,4 +18,7 @@
 vendor/*
 !vendor/.gitkeep
 
+########### Distribution
+dist
+
 ########### Project specific
