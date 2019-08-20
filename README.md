@@ -1,6 +1,37 @@
 
 # GoReleaser sample project
 
+## Instructions to test GoReleaser usage
+
+1. Create a [new GitHub token](https://github.com/settings/tokens/new) and export it as environment variable
+
+		```
+		export GITHUB_TOKEN="cfd75e2b62a712eb9ee830295bcd2eb9095e5bdc"
+		```
+
+2. Commit all changes
+
+		```
+		git add .
+		git commit -m "Release ready!"
+		git push
+		```
+
+3. Create a new git tag
+
+		```
+		git tag -a v0.2.0 -m "First release"
+		git push origin v0.2.0
+		```
+
+3. Run GoReleaser
+
+		```
+		goreleaser release
+		```
+
+---
+
 ## Check configuration
 
 ```
