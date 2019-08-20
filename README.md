@@ -5,31 +5,33 @@
 
 1. Create a [new GitHub token](https://github.com/settings/tokens/new) and export it as environment variable
 
-		```
-		export GITHUB_TOKEN="***"
-		```
+	```
+	export GITHUB_TOKEN="***"
+	```
 
 2. Commit all changes
 
-		```
-		git add .
-		git commit -m "Release ready!"
-		git push
-		```
+	```
+	git add .
+	git commit -m "Release ready!"
+	git push
+	```
 
 3. Create a new git tag
 
-		```
-		NEW_VERSION="v0.3.0"
-		git tag -a $NEW_VERSION -m "Release $NEW_VERSION"
-		git push origin $NEW_VERSION
-		```
+	`WARN:` check [here](https://github.com/bygui86/go-releaser/releases) to find the next valid release
 
-3. Run GoReleaser
+	```
+	NEW_VERSION="v0.3.0"
+	git tag -a $NEW_VERSION -m "Release $NEW_VERSION"
+	git push origin $NEW_VERSION
+	```
 
-		```
-		goreleaser release
-		```
+4. Run GoReleaser
+
+	```
+	goreleaser release
+	```
 
 ---
 
