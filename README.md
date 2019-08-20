@@ -6,7 +6,7 @@
 1. Create a [new GitHub token](https://github.com/settings/tokens/new) and export it as environment variable
 
 		```
-		export GITHUB_TOKEN="cfd75e2b62a712eb9ee830295bcd2eb9095e5bdc"
+		export GITHUB_TOKEN="***"
 		```
 
 2. Commit all changes
@@ -20,8 +20,9 @@
 3. Create a new git tag
 
 		```
-		git tag -a v0.2.0 -m "First release"
-		git push origin v0.2.0
+		NEW_VERSION="v0.3.0"
+		git tag -a $NEW_VERSION -m "Release $NEW_VERSION"
+		git push origin $NEW_VERSION
 		```
 
 3. Run GoReleaser
